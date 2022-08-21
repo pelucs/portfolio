@@ -1,0 +1,140 @@
+.form-box{
+  width: 100%;
+  margin-top: 70px;
+
+  display: flex;
+  justify-content: center;
+}
+.aviso{
+  padding: 15px;
+
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-radius: 10px;
+  background-color: var(--primaria);
+}
+.aviso p{
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.box-form{
+  width: 50%;
+}
+.box-form:first-of-type{
+  margin-right: 30px;
+}
+.box-form:last-of-type{
+  margin-left: 30px;
+}
+.cards-contato{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.card-contato{
+  width: 250px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  border-radius: 10px;
+  background-color: var(--secundaria);
+}
+.card-contato h1{
+  margin-top: 15px;
+  
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+.card-contato h2{
+  margin-top: 3px;
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+}
+.card-contato a{
+  margin-top: 15px;
+
+  text-decoration: none;
+  color: var(--primaria);
+}
+.card-contato a:hover{
+  text-decoration: underline;
+}
+.card-contato:last-of-type{
+  margin-top: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form input, .form textarea{
+  width: 100%;
+  max-width: 400px;
+  margin-top: 15px;
+  outline: none;
+
+  border-radius: 10px;
+  border: 1px solid var(--primaria);
+  background-color: transparent;
+
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+.form input{
+  height: 50px;
+  padding: 0 10px;
+}
+.form textarea{
+  height: 80px;
+  padding: 15px;
+  resize: none;
+}
+.form input:first-of-type{
+  margin: 0;
+}
+.form button{
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+
+  outline: none;
+  cursor: pointer;
+
+  border: 0;
+  border-radius: 5px;
+  background-color: var(--primaria);
+
+  font-size: 14px;
+  color: #fff;
+}
+
+@media screen and (max-width: 900px){
+  .box-form{
+    width: 100%;
+    margin: 0;
+  }
+  .cards-contato{
+    align-items: center;
+  }
+  .form{
+    margin-top: 30px;
+    align-items: center;
+  }
+  .form button{
+    width: 100%;
+    height: 45px;
+  }
+}

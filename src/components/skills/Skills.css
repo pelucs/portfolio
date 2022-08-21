@@ -1,0 +1,32 @@
+.section-3{
+  width: 100%;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-skill{
+  max-width: 450px;
+  height: 150px;
+  padding: 20px;
+  margin-top: 70px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+
+  border-radius: 10px;
+  background-color: var(--secundaria);
+}
+
+.card-skill a{
+  color: #fff;
+  font-size: .95rem;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+}
