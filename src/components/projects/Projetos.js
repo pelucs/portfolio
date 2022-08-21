@@ -38,7 +38,7 @@ export default () => {
             <h1>Plataforma de vídeos</h1>
             <div className="buttons-projeto">
               <a target="_blank" href="https://github.com/pelucs/ignite-lab-plataform">Github</a>
-              <a target="_blank" href="http://ignite-lab-plataform-omega.vercel.app/">Ver Site</a>
+              <a target="_blank" href="http://plataformadeeventos.vercel.app">Ver Site</a>
             </div>
           </div>
           <div className="projeto">
