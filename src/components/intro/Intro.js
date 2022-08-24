@@ -31,7 +31,7 @@ export default () => {
         <div className="center-info">
           <div className="name-info">
             <h1>Olá! eu sou</h1>
-            <h2>Pedro Lucas</h2>
+            <h2>Pedro Lucass</h2>
             <h3>Desenvolvedor Web Front-End</h3>
           </div>
           <div className="buttons-intro">
